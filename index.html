@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP Seguros</title>
+    <link rel="stylesheet" href="assets/style.css"> <!-- Lembre-se de criar um arquivo CSS separado -->
+</head>
+<body>
+    <header>
+        <h1>SP Seguros</h1>
+        <nav>
+            <ul>
+                <li><a href="#coberturas">Coberturas</a></li>
+                <li><a href="#preços">Preços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Proteja o que é mais importante para você.</h2>
+        <p>Oferecemos seguros confiáveis para sua tranquilidade.</p>
+        <a href="#contato" class="cta-button">Solicitar Cotação</a>
+    </section>
+
+    <section id="coberturas">
+        <h2>Principais Seguros</h2>
+        <div class="card">
+            <img src="assets/images/plano_auto.png" alt="Cobertura 1">
+            <h3>Seguros de Automóveis</h3>
+            <p>Descrição da cobertura 1.</p>
+            <a href="#" class="saber-mais-button">Saber mais</a>
+        </div>
+        <div class="card">
+            <img src="assets/images/plano_odonto.png" alt="Cobertura 2">
+            <h3>Seguros Odontológicos</h3>
+            <p>Descrição da cobertura 2.</p>
+            <a href="#" class="saber-mais-button">Saber mais</a>
+        </div>
+        <div class="card">
+            <img src="assets/images/plano_saude.png" alt="Cobertura 3">
+            <h3>Seguros de Saúde</h3>
+            <p>Descrição da cobertura 3.</p>
+            <a href="#" class="saber-mais-button">Saber mais</a>
+        </div>
+    </section>
+
+    <section id="preços">
+        <h2>Preços Competitivos</h2>
+        <p>Oferecemos preços acessíveis para garantir sua segurança e paz de espírito.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Preencha o formulário abaixo para obter mais informações ou solicitar uma cotação.</p>
+        <form action="processar_formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 SP Seguros. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

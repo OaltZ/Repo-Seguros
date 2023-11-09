@@ -1,0 +1,131 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+/* Estilos para a seção do herói */
+#hero {
+    background-image: url('hero-bg.jpg'); /* Substitua 'hero-bg.jpg' pela imagem de fundo desejada */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f4511e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #f98556;
+}
+
+/* Estilos para as seções de conteúdo */
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Estilos para o formulário de contato */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #f4511e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f98556;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para os cards de cobertura */
+#coberturas {
+    background-color: #333;
+    color: white;
+    text-align: center; /* Centraliza os cards horizontalmente */
+}
+
+.card {
+    display: inline-block;
+    width: 30%; /* Ajuste a largura para centralizar corretamente 3 cards */
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px; /* Espaço entre os cards */
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.saber-mais-button {
+    display: inline-block;
+    background-color: #f4511e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.saber-mais-button:hover {
+    background-color: #f98556;
+}
